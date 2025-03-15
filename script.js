@@ -1,8 +1,8 @@
 let timerdisplay = document.getElementById("timer");
-let currentDate = new date();
-set Interval(
+let currentDate = new Date();
+setInterval(
 	function(){
-		currentDate = new date();
+		currentDate = new Date();
 		timerdisplay.innerHTML = currentDate.toLocaleString();
 	
 	},1000
